@@ -122,7 +122,7 @@ struct file {
 };
 
 struct super_block {
-	unsigned short s_ninodes;
+	unsigned short s_ninodes;  //i节点数
 	unsigned short s_nzones;
 	unsigned short s_imap_blocks;
 	unsigned short s_zmap_blocks;
